@@ -96,12 +96,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  background-color: #373E40;
+}
+main {
+  width: 80%;
+
+  margin: auto;
+}
+section {
+  width: 100%;
+  justify-content: center;
+  margin-top: auto: 10px;
+  margin-bottom: 10px;
+
+}
+.semaine {
+    justify-content: center !important;
+    margin: auto;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding: 10px;
+
+}
+article {
+  width: 46%;
+  display: inline-block;
+  background-color: #b7d5d4;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  height:300px;
+  overflow: scroll;
+  box-shadow: 10px 5px 5px black;
+
+}
+
+.all-articles {
+  display: flex;
+  justify-content: space-between;
+}
+.done {
+  text-decoration-line: line-through;
+}
+.project-name {
+  background-color: green;
+  width: 100%;
+  align-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
 
 
 
-
-
+}
 
 
 
