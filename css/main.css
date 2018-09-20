@@ -103,7 +103,7 @@ body{
                 /*========= header=======*/
 header {
   height: 130px;
-  flex-direction: column;
+  flex-direction: row;
   position: fixed;
   top: 0;
   width: 100%;
@@ -112,85 +112,92 @@ header {
   background-color: #ced7dd;
 }
 
+.title-button{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+
+}
   /* title and logo */
 
 h1 {
   color: #373E40;
-  width: 50%;
   font-size: 45px;
 }
 
 #logo {
   height: 150px;
   width: 150px;
-  margin-left: 60px;
+
 }
 
+header section{
+  width: 70%;
 }
 a h1 {
   text-decoration: none;
   display: inline-block;
 }
 .title-logo {
-  width: 80%;
+
   display: flex;
   justify-content: space-between;
-  float: left;
 }
 
 
 
 /* title and logo */
 .button-sign {
-  width: 16%;
+  width: 30%;
   margin-top: 20px;
   justify-content: center;
-  float: right;
+  text-align: right;
 }
 
-form {
-  width: 50%;
-height: 30%;
-}
 
-.form-control-borderless {
-    border: none;
-}
-
-.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
-    border: none;
-    outline: none;
-    box-shadow: none;
-}
-
-/* main */
+                /*============== main ============= */
 main {
   width: 80%;
 padding-top: 150px;
   margin: auto;
 }
-section {
+
+/*custom all section who contains articles*/
+
+.section-article {
   width: 100%;
   justify-content: center;
   margin-top: auto: 10px;
   margin-bottom: 10px;
-
-}
-.semaine {
-    justify-content: center !important;
-    margin: auto;
-
 }
 
+/*custom week's name*/
 h2 {
   margin-bottom: 20px;
-  color: white;
+  color: #ced7dd;
+  border-bottom:1px solid #ced7dd;
+  padding-bottom: 25px;
 }
 
-h3 {
+/* name of the project*/
+.project-name {
+  border-bottom:1px solid black;
+  width: 100%;
+  align-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
   padding: 10px;
-
 }
+
+/* all aticles*/
+.all-articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* one article*/
 article {
   width: 46%;
   display: inline-block;
@@ -203,31 +210,25 @@ article {
   height:300px;
   overflow: scroll;
   box-shadow: 5px 5px 5px black;
-
 }
 
-.all-articles {
-  display: flex;
-  justify-content: space-between;
+h3{
+  width: 85%;
+}
+
+i{
+  width: 15%;
+}
+
+
+/*Task*/
+
+.tasks {
+  padding-top: 10px;
 }
 .done {
   text-decoration-line: line-through;
 }
-.project-name {
-  background-color: green;
-  width: 100%;
-  align-content: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-
-
-
-
-
-
-
 
 
 
