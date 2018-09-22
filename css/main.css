@@ -129,14 +129,17 @@ h1 {
 #logo {
   height: 150px;
   width: 150px;
+}
 
+a.title-logo{
+  text-decoration: none;
 }
 
 header section{
   width: 70%;
 }
 a h1 {
-  text-decoration: none;
+
   display: inline-block;
 }
 .title-logo {
@@ -147,7 +150,7 @@ a h1 {
 
 
 
-/* title and logo */
+/* Sign */
 .button-sign {
   width: 30%;
   margin-top: 20px;
@@ -191,6 +194,8 @@ h2 {
   padding: 10px;
 }
 
+
+
 /* all aticles*/
 .all-articles {
   display: flex;
@@ -204,22 +209,32 @@ article {
   background-color: #ced7dd;
   border-radius: 5px;
   padding: 5px;
-  margin-bottom: 5px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin: 1em;
   height:300px;
   overflow: scroll;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 3px 3px 3px black;
 }
 
 h3{
   width: 85%;
 }
 
-i{
-  width: 15%;
+.finished i{
+  color: green;
 }
 
+.in-progress i {
+  color: orange;
+}
+
+.important i {
+  color:red;
+}
+
+i{
+  width: 15%;
+  font-size: 2em;
+}
 
 /*Task*/
 
